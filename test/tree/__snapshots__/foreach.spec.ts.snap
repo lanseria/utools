@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tree Foreach 树循环 Bfs 广度遍历 List.length 1`] = `
+Array [
+  "a",
+  "a1",
+  "a2",
+  "a3",
+  "a11",
+  "a12",
+  "a21",
+  "a22",
+  "a31",
+  "a32",
+]
+`;
+
+exports[`Tree Foreach 树循环 Dfs 深度遍历 Non-Recursive 非递归式 List.length 1`] = `
+Array [
+  "a",
+  "a1",
+  "a11",
+  "a12",
+  "a2",
+  "a21",
+  "a22",
+  "a3",
+  "a31",
+  "a32",
+]
+`;
+
+exports[`Tree Foreach 树循环 Dfs 深度遍历 Recursive 递归式 List.length 1`] = `
+Array [
+  "a",
+  "a1",
+  "a11",
+  "a12",
+  "a2",
+  "a21",
+  "a22",
+  "a3",
+  "a31",
+  "a32",
+]
+`;

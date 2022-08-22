@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@lanseria/utools": ["../src"]
+    },
+    "baseUrl": ".",
+    "rootDir": "../",
+    "strict": true,
+    "strictNullChecks": true,
+    "module": "ES6",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "composite": true,
+    "target": "ES6",
+    "lib": ["ESNext", "DOM"],
+    "typeRoots": ["../node_modules/@types", "../src/types"]
+  },
+  "include": ["../**/*.ts"]
+}

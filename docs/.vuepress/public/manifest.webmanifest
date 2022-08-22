@@ -1,0 +1,16 @@
+{
+  "name": "@lanseria/utools",
+  "short_name": "UTools",
+  "description": "Alternative JavaScript Tool Library.",
+  "start_url": "/utools/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3eaf7c",
+  "icons": [
+    {
+      "src": "./images/icons/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ]
+}

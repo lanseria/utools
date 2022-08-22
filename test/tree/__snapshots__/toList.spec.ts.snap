@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tree To List 树转为数组操作 无ID 1`] = `
+Array [
+  Object {
+    "name": "a",
+  },
+  Object {
+    "name": "a1",
+  },
+  Object {
+    "name": "a11",
+  },
+  Object {
+    "name": "a12",
+  },
+  Object {
+    "name": "a2",
+  },
+  Object {
+    "name": "a21",
+  },
+  Object {
+    "name": "a22",
+  },
+  Object {
+    "name": "a3",
+  },
+  Object {
+    "name": "a31",
+  },
+  Object {
+    "name": "a32",
+  },
+]
+`;
+
+exports[`Tree To List 树转为数组操作 有ID 1`] = `
+Array [
+  Object {
+    "id": 0,
+    "name": "a",
+    "parentId": -1,
+  },
+  Object {
+    "id": 1,
+    "name": "a1",
+    "parentId": 0,
+  },
+  Object {
+    "id": 2,
+    "name": "a11",
+    "parentId": 1,
+  },
+  Object {
+    "id": 3,
+    "name": "a12",
+    "parentId": 1,
+  },
+  Object {
+    "id": 4,
+    "name": "a2",
+    "parentId": 0,
+  },
+  Object {
+    "id": 5,
+    "name": "a21",
+    "parentId": 4,
+  },
+  Object {
+    "id": 6,
+    "name": "a22",
+    "parentId": 4,
+  },
+  Object {
+    "id": 7,
+    "name": "a3",
+    "parentId": 0,
+  },
+  Object {
+    "id": 8,
+    "name": "a31",
+    "parentId": 7,
+  },
+  Object {
+    "id": 9,
+    "name": "a32",
+    "parentId": 7,
+  },
+]
+`;

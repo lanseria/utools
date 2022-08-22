@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Utils 工具函数 treeCloneById 拷贝并赋值唯一ID 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "id": 2,
+          "name": "a11",
+        },
+        Object {
+          "id": 3,
+          "name": "a12",
+        },
+      ],
+      "id": 1,
+      "name": "a1",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "id": 5,
+          "name": "a21",
+        },
+        Object {
+          "id": 6,
+          "name": "a22",
+        },
+      ],
+      "id": 4,
+      "name": "a2",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "id": 8,
+          "name": "a31",
+        },
+        Object {
+          "id": 9,
+          "name": "a32",
+        },
+      ],
+      "id": 7,
+      "name": "a3",
+    },
+  ],
+  "id": 0,
+  "name": "a",
+}
+`;

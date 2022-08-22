@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List To Tree 数组转为树操作 normal 测试 1`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [],
+        "id": 2,
+        "name": "a11",
+        "parentId": 1,
+      },
+      Object {
+        "children": Array [],
+        "id": 3,
+        "name": "a12",
+        "parentId": 1,
+      },
+    ],
+    "id": 1,
+    "name": "a1",
+    "parentId": 0,
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [],
+        "id": 5,
+        "name": "a21",
+        "parentId": 4,
+      },
+      Object {
+        "children": Array [],
+        "id": 6,
+        "name": "a22",
+        "parentId": 4,
+      },
+    ],
+    "id": 4,
+    "name": "a2",
+    "parentId": 0,
+  },
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [],
+        "id": 8,
+        "name": "a31",
+        "parentId": 7,
+      },
+      Object {
+        "children": Array [],
+        "id": 9,
+        "name": "a32",
+        "parentId": 7,
+      },
+    ],
+    "id": 7,
+    "name": "a3",
+    "parentId": 0,
+  },
+]
+`;
